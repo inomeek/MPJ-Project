@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  
+  <title>Placement Readiness Portal</title>
+  <meta name="description" content="AI-powered placement readiness analytics for students.">
+  
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <style>
+    /* 3. Better Background & Smooth Transitions */
+    html, body, #outlet {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      /* Using Lumo variables ensures consistency with your Vaadin Java components */
+      background-color: var(--lumo-contrast-5pct, #f9f9f9);
+      font-family: var(--lumo-font-family);
+    }
+
+    /* 4. Optional: Prevent "Flash of Unstyled Content" */
+    body {
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div id="outlet"></div>
+</body>
+</html>
